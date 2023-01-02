@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z')+1):
-    print("{:c}".format(i), end="")
+for alpha_letters in range(ord('a'), ord('z')+1):
+    print("{:c}".format(alpha_letters), end="")
