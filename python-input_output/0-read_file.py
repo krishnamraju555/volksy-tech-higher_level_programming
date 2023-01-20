@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""write file"""
+"""Reading file"""
 
 
-def write_file(filename="", text=""):
-    """writing a text"""
+def read_file(filename=""):
+    """Defining function"""
     if filename:
-        with open(filename, mode='w', encoding="utf-8") as f:
-            return(f.write(text))
+        with open(filename, mode='r', encoding="utf-8") as f:
+            for i in f:
+                print(i, end="")
