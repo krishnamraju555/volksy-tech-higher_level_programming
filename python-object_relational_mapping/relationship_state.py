@@ -1,4 +1,5 @@
-tate contains class State and instance Base'''
+#!/usr/bin/python3
+''' module model_state contains class State and instance Base'''
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
